@@ -1,0 +1,53 @@
+
+git init  : initial this directory a git repository
+
+git add   : add a file into git
+
+git commit -m "xxx" : commit the file what u did
+
+git status : get the status of git work space
+
+git diff   : get the differences between the old file and new file
+
+git log    : show the history of commits and where is the HEAD pointer
+
+git reset --hard commit_id : like: git reset --hard HEAD^(^^..) or HEAD~100
+
+			    go back to what commit u want use commit_id
+
+git reflog  : show the history of commands u did
+
+撤销操作：
+
+1.还未被add进stage：
+	
+	git checkout --<filename>
+
+2.已被add进stage：
+
+	git reset HEAD <filename>
+	
+	git checkout --<filename>	
+
+3.已被commit进work repositories：
+
+	git reset --hard HEAD^  (版本退回)
+ 
+
+REMOVE operations :
+
+1)rm filename
+
+2)git rm/add <filename>
+
+3)git commit -m "xxx"
+
+
+Link to the origin on GitHub:
+
+1)git remote add origin git@<server-name>:path/repo-name.git
+2)git push -u origin master (first time push)
+3)git push origin master
+
+
+ 
