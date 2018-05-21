@@ -39,7 +39,7 @@ mv file1 file2
 mv dir1 dir2
 
 
-
+branch management strategy!! --no-ff master / dev / feature 
 
 
 
