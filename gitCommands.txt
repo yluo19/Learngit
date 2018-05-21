@@ -50,4 +50,36 @@ Link to the origin on GitHub:
 3)git push origin master
 
 
+branch management:
+
+ git checkout -b <dev> : create a branch dev and let head pointer on dev 
+	==  git branch dev
+	    git checkout dev
+
+
+ git branch <branchname>  : show all branchs and * is branch used now
+
+ git checkout <branchname> : make HEAD point on <>
+
+ git merge <branchname>   : merge branch with master
+
+ git branch -d <branchname> : delete the branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
