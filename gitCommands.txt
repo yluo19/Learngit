@@ -45,7 +45,7 @@ REMOVE operations :
 
 Link to the origin on GitHub:
 
-1)git remote add origin git@<server-name>:path/repo-name.git
+1)git remote add origin git@github.com:<server-name>/repo-name.git
 2)git push -u origin master (first time push)
 3)git push origin master
 
