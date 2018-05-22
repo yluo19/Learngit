@@ -5,7 +5,7 @@ I am learning Git and command lines.
 
 Git is a version control system.
 
-Git is free software.
+Git is a free software.
 
 I LOVE Git.
 
