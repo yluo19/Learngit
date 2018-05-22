@@ -67,6 +67,25 @@ branch management:
 
 
 
+Fix Bug steps:
+
+1) git stash : save current work repo into stash
+
+2) git checkout -b <issuename> : create a branch to fix bug
+
+3) git checkout <mainbranch> and git merge --no-ff -m"commmits" <issuename>
+	go back to main branch and use no-ff merge issue branch and main branch
+
+4) git checkout dev 
+
+5) git stash list : check which stash u saved before
+
+6) git stash pop : pop the stash and delete atuo
+
+7) git stash apply stash@{<num>} : recover stash but do not delete
+
+8) git stash drop ..  : delete the stash 
+
 
 
 
