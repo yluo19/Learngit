@@ -110,6 +110,15 @@ git show <tagname>
 
 git tag : show all tags u have done
 
+git tag -d <tagname> : delete tag
+
+git push origin <tagname> : push to origin
+
+git push origin --tags : push all tags
+
+origin delete tag : 1) git tag -d <tagname>
+		    2) git push origin : refs/tags/<tagname>
+
 
 
 
