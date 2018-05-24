@@ -102,6 +102,13 @@ Multi-Working:
 6) fix conflict and push again
 
 
+Tagging :
+
+git tag <tagname> -m "blablabla..."
+
+git show <tagname>
+
+git tag : show all tags u have done
 
 
 
