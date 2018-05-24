@@ -87,6 +87,26 @@ Fix Bug steps:
 8) git stash drop ..  : delete the stash 
 
 
+Multi-Working:
+
+1) git push origin <branchname> : try to push first 
+
+2) git pull
+
+3) git checkout -b <branchname> origin/<branchname>: create corresponding branch
+
+4) git branch --set-upstream <branchname> origin/<branchname>
+
+5) git pull
+
+6) fix conflict and push again
+
+
+
+
+
+
+
 
 
 
